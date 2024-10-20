@@ -1,0 +1,197 @@
+body {
+  background-color: #cac9c5;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  width: 70%;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.user-label {
+  background: linear-gradient(90deg, #562168, #562165);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  display: inline-flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+.user-label label {
+  display: flex;
+  align-items: center;
+}
+
+.auth-box,
+.form-container {
+  border-radius: 15px;
+  padding: 30px;
+}
+
+.auth-box {
+  background: linear-gradient(180deg, #8f409f, #3a1254);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 250px;
+  height: 300px;
+  border-radius: 30px;
+}
+
+.auth-box h2 {
+  margin-bottom: 5px;
+  font-size: 32px;
+}
+
+.auth-box p {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.auth-box button {
+  min-width: 120px;
+  background-color: rgba(231, 51, 212, 0.26);
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.auth-box button:hover {
+  background-color: #6b2b99;
+}
+
+.form-container {
+  padding: 30px;
+  border-radius: 15px;
+  width: 600px;
+}
+
+h4 {
+  color: #8b8b8b;
+}
+
+.form-group {
+  width: 600px;
+  background-color: white; /* Белый фон для каждого блока */
+  margin-bottom: 0px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 10px; /* Скругление углов */
+  padding: 15px; /* Отступ внутри блока для улучшения внешнего вида */
+}
+.form-separator {
+  border: none;
+  border-top: 2px solid rgba(194, 193, 189, 0.85);
+  margin: 30px 30px; /* Отступы сверху и снизу */
+  width: 100%;
+}
+.form-group label {
+  font-weight: black;
+  margin-bottom: 5px; /* Отступ между заголовком и полем ввода */
+  font-size: 20px;
+  color: #000;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 10px 40px 10px 0; /* Отступы, чтобы оставить место для иконки */
+  border: none;
+  border-bottom: 2px solid #ccc; /* Полоса под полем ввода */
+  background-color: transparent;
+  font-size: 15px;
+  outline: none; /* Убираем подсветку при фокусе */
+}
+.form-group input:focus {
+  border-bottom: 2px solid #8f409f; /* Изменение цвета полосы при фокусе */
+}
+
+.input-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.input-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+  color: #a3a3a3;
+}
+
+.create-account-button {
+  width: 320px;
+  height: 60px;
+  padding: 15px;
+  background-color: #5e1c88;
+  border: none;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.create-account-button:hover {
+  background-color: #4d1670;
+}
+
+.create-account-button:active {
+  background-color: #3a1055;
+}
+
+.form-group label {
+  font-weight: bold;
+  color: #555;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.action-buttons button {
+  padding: 15px;
+  background-color: #5a2a82;
+  border: none;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 48%;
+}
+
+.action-buttons button:hover {
+  background-color: #8a42b4;
+}
